@@ -1,0 +1,138 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer
+{
+    text-align: center;
+    padding: 50px 10px;
+    margin-top: auto;
+}
+
+footer a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+footer a:visited
+{
+    color: black;
+}
+
+footer a:hover
+{
+    color: gray;
+}
+
+h1
+{
+    text-align: center;
+    padding: 20px 0 0 0;
+    text-transform: uppercase;
+}
+
+.button
+{
+    padding: 1px 1px;
+    width: 75px;
+    margin: 5px 6px;
+    align-items: center;
+    height: 30px;
+}
+
+.button:focus
+{
+    outline: none;
+}
+
+.btext
+{
+    padding: 1px 1px;
+    width: 70px;
+    margin: 5px;
+    align-items: center;
+    height: 30px;
+}
+
+.btext:focus
+{
+    outline: none;
+}
+
+.button:hover
+{
+    color: #FFF;
+    background-color: #A3CC52;
+}
+
+input
+{
+    text-align: center;
+}
+
+.bloque
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#blo1
+{
+    padding-bottom: 15px;
+}
+
+.bil
+{
+    text-align: center;
+}
+
+.bil img
+{
+    width: 100px;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+}
+
+#resultado
+{
+    text-align: center;
+}
+
+#resultadoTxt
+{
+    text-align: center;
+}
+
+#img-cajero
+{
+    padding: 20px;
+
+}
+
+@media (max-width: 500px)
+{
+
+}
+
+@media (max-width: 350px)
+{
+    
+}

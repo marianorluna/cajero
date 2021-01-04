@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARQFI | Cajero</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cajero</h1>
+        <div class="bloque">
+            <img src="img/cajero.gif" alt="Imagen del cajero" id="img-cajero" />
+        </div>
+        <div class="bloque" id="blo1">
+            <input type="number" id="dinero" class="btext" />
+            <input type="button" value="Extraer" name="Extraer" class="button" id="boton-extraer" />
+            <input type="button" value="Reset" name="Reset" class="button" id="boton-reset" onclick="location.reload()" />
+            <input type="text" id="saldo" class="btext" placeholder="Saldo" readonly />
+        </div>
+        <div class="bloque"></div>
+            <div id="resultadoTxt"></div>
+        </div>
+        <div class="bloque">
+            <div id="resultado"></div>
+        </div>
+        <footer>
+            <a title="Mi sitio web" href="https://marianorluna.com" target="_blank">www.marianorluna.com</a>
+        </footer>
+    </div>
+    <script src="cajero.js"></script>
+</body>
+</html>
